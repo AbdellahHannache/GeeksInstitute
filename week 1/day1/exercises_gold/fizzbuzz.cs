@@ -32,7 +32,7 @@ for(int i = 1; i <= 5; i++)
 //Exercise : Reverse a Word (No Built-in Functions)
 Console.Write("Enter a name: ");
 string word = Console.ReadLine();
-reversedWord = "";
+string reversedWord = "";
 for (int i = word.Length - 1; i >= 0; i--)
 {
     reversedWord += word[i];
