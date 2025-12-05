@@ -92,6 +92,8 @@ void MainSimulation()
     }
 
     Console.WriteLine($"the total rolls is : {TotalRolls}");
+    double average = (double)TotalRolls / 100;
+    Console.WriteLine("Average: " + Math.Round(average, 2));
 
 
 }
