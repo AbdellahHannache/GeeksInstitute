@@ -88,10 +88,10 @@ void MainSimulation()
         r = ThrowUntilDoubles();
         Nrolls.Add(r);
         TotalRolls+=r;
-        Console.WriteLine(r);
+        Console.WriteLine($"R{i+1}__{r}");
     }
 
-    Console.WriteLine(TotalRolls);
+    Console.WriteLine($"the total rolls is : {TotalRolls}");
 
 
 }
