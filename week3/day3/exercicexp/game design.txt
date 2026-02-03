@@ -1,0 +1,7 @@
+game name : subway surfers
+#1
+the goal is runnig as far as possible and collecting coins and avoiding obstacles.
+the rules : the character is automaticaly runs and the player swipe to control the charcter like switching lines or jumping or rolling.
+core loop : endless running -- avoid obstacles -- collecting coins and rewards
+#2
+in the action of collecting coins the coin The coin emits a quick golden glow with a soft “cling” sound.
